@@ -1,15 +1,23 @@
+/* general */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  } 
+}
 
+body {
+  background-color: #f1f1f1;
+}
+
+/* navbar */
 .navbar {
+  background-color: white;
   height: 70px;
   width: 100%;
   display: flex;
   justify-content: flex-start;
-  margin-bottom: 25px; 
+  margin-bottom: 25px;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .logo {
@@ -55,10 +63,42 @@
   display: inline;
 }
 
-.blue, .white {
+.blue,
+.white {
   width: 100%;
 }
 
 .white {
   background-color: white;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* left menu */
+.left-menu {
+  width: 70%;
+}
+
+.player {
+  margin-bottom: 10px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.0976562) 0px 1px 2px;
+  padding: 15px;
+  margin: 10px 2px;
+}
+
+.right-menu {
+  width: 30%;
+  background-color: green;
+  margin-left: 10px;
 }
