@@ -125,7 +125,7 @@ body {
 .user-img {
   padding: 10px;
   background-color: green;
-  font-style: bold;
+  font-weight: 400;
   font-family: sans-serif;
   color: white;
   margin-right: 10px;
@@ -134,10 +134,10 @@ body {
 .channel-info {
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
 .views {
-  flex: 1;
   display: flex;
   flex-direction: column;
   justify-items: flex-end;
