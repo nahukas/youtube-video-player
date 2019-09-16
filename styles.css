@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -108,9 +109,17 @@ body {
   flex-direction: row;
 }
 
+.icon button {
+  background-color: red;
+  color: white;
+}
+
 .account {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 .user-img {
@@ -119,6 +128,7 @@ body {
   font-style: bold;
   font-family: sans-serif;
   color: white;
+  margin-right: 10px;
 }
 
 .channel-info {
@@ -126,3 +136,10 @@ body {
   flex-direction: column;
 }
 
+.views {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-end;
+  align-self: flex-end;
+}
