@@ -102,3 +102,27 @@ body {
   background-color: green;
   margin-left: 10px;
 }
+
+.icon {
+  display: flex;
+  flex-direction: row;
+}
+
+.account {
+  display: flex;
+  flex-direction: row;
+}
+
+.user-img {
+  padding: 10px;
+  background-color: green;
+  font-style: bold;
+  font-family: sans-serif;
+  color: white;
+}
+
+.channel-info {
+  display: flex;
+  flex-direction: column;
+}
+
