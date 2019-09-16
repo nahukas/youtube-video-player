@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -9,29 +13,57 @@
   </head>
   <body>
     <!-- search bar -->
-    <nav>
-        <i class="fa fa-car"></i>
-        <img src="./images/new-youtube-logo.svg" alt="Youtube logo">
-        <input type="text">
-        <button></button>
-        <i class="fa fa-car"></i>
-        <button>Sign in</button>
+    <nav class="navbar">
+      <i class="navbar-element fa fa-2x fa-bars"></i>
+      <img
+        class="logo"
+        src="./images/new-youtube-logo.svg"
+        alt="Youtube logo"
+      />
+      <input
+        id="search-bar"
+        class="navbar-element"
+        type="text"
+        placeholder="Search"
+      />
+      <button class="navbar-element search-button">
+        <i class="fa fa-2x fa-search"></i>
+      </button>
+      <button class="navbar-element sign-in-button">Sign in</button>
     </nav>
     <!-- language bar -->
     <div class="blue">
-      <i class="fa fa-car"></i>
+      <i class="fa fa-user"></i>
       <p>Choose your language.</p>
-      <i class="fa fa-car"></i>
+      <i class="fa fa-times"></i>
       <div class="white">
-        <p>You're viewing YouTube in English (US). You can <a>change this preference below.</a></p>
+        <p>
+          You're viewing YouTube in English (US). You can
+          <a>change this preference below.</a>
+        </p>
         <a>Learn more</a>
       </div>
     </div>
     <!--content-->
     <div>
       <!-- left menu-->
-      <div class=""></div>
-      <!-- right menu-->      
+      <div class="left-menu">
+        <div class="player">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/V74l_zS1x8E"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <div class="title"></div>
+          <div class="stats"></div>
+        </div>
+        <div class="description"></div>
+        <div class="comments"></div>
+      </div>
+      <!-- right menu-->
       <div class=""></div>
     </div>
     <!-- footer -->
