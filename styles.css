@@ -109,9 +109,16 @@ body {
   flex-direction: row;
 }
 
+.icon-view {
+  border: solid #EEEEEE;
+  border-radius: 5px;
+}
+
 .icon button {
   background-color: red;
   color: white;
+  border: none;
+  padding: 0 2px;
 }
 
 .account {
@@ -142,4 +149,8 @@ body {
   flex-direction: column;
   justify-items: flex-end;
   align-self: flex-end;
+}
+
+.divblue {
+  border-color: #157ac5;
 }
