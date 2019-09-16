@@ -89,11 +89,16 @@ body {
   margin-bottom: 10px;
 }
 
+.title {
+  margin-bottom: 10px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
 .description {
   display: flex;
   flex-direction: column;
   background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.0976562) 0px 1px 2px;
   padding: 15px;
   margin: 10px 2px;
 }
@@ -110,7 +115,7 @@ body {
 }
 
 .icon-view {
-  border: solid #EEEEEE;
+  border: solid #eeeeee;
   border-radius: 5px;
 }
 
@@ -136,6 +141,7 @@ body {
   font-family: sans-serif;
   color: white;
   margin-right: 10px;
+  width: 30px;
 }
 
 .channel-info {
@@ -151,6 +157,59 @@ body {
   align-self: flex-end;
 }
 
+.divider {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.divgray {
+  width: 95%;
+  border: none;
+  background-color: #eeeeee;
+  color: #eeeeee;
+  height: 1px;
+}
+
 .divblue {
-  border-color: #157ac5;
+  width: 30%;
+  align-self: flex-end;
+  border: 1.5px solid #157ac5;
+}
+
+/* stats */
+.stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.stats-left {
+  display: flex;
+}
+
+.stats-left i {
+  margin-right: 10px;
+  color: #606060;
+}
+
+.stats-left-icon {
+  display: flex;
+  flex-direction: row;
+}
+
+.likes {
+  display: flex;
+}
+
+.likes i {
+  margin-right: 10px;
+  color: #606060;
+}
+
+.box-shadow {
+  box-shadow: rgba(0, 0, 0, 0.0976562) 0px 1px 2px;
+  background-color: white;
+  padding: 10px;
 }
