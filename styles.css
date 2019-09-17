@@ -63,6 +63,7 @@ body {
 
 .navbar-icon {
   margin-right: 20px;
+  margin-left: 20px;
   color: #bdbdbd;
 }
 
@@ -80,12 +81,14 @@ body {
 .sign-in-button {
   background-color: #157ac5;
   color: white;
+  width: 80px;
 }
 
 .navbar-element {
   height: 30px;
-  vertical-align: middle;
-  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .language {
