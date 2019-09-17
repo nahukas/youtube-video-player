@@ -21,22 +21,29 @@
   <body>
     <!-- search bar -->
     <nav class="navbar">
-      <i class="navbar-element fa fa-2x fa-bars"></i>
-      <img
-        class="logo"
-        src="./images/new-youtube-logo.svg"
-        alt="Youtube logo"
-      />
-      <input
-        id="search-bar"
-        class="navbar-element"
-        type="text"
-        placeholder="Search"
-      />
-      <button class="navbar-element search-button">
-        <i class="fa fa-2x fa-search"></i>
-      </button>
-      <button class="navbar-element sign-in-button">Sign in</button>
+      <div class="group-menu">
+        <i class="navbar-element fa fa-2x fa-bars"></i>
+        <img
+          class="logo"
+          src="./images/new-youtube-logo.svg"
+          alt="Youtube logo"
+        />
+      </div>
+      <div class="search-bar-group">
+        <input
+          id="search-bar"
+          class="navbar-icon"
+          type="text"
+          placeholder="Search"
+        />
+        <button class="navbar-element search-button">
+          <i class="fa fa-2x fa-search"></i>
+        </button>
+      </div>
+      <div class="upload-signin-group">
+        <i class="navbar-element navbar-icon fas fa-2x fa-upload"></i>
+        <button class="navbar-element sign-in-button">Sign in</button>
+      </div>
     </nav>
     <!-- language bar -->
     <div class="language">
@@ -108,7 +115,9 @@
             </div>
           </div>
           <div class="published box-shadow">
-            <div class="published-title"><h3>Published on Feb 27, 2014</h3></div>
+            <div class="published-title">
+              <h3>Published on Feb 27, 2014</h3>
+            </div>
             <div class="published-description">
               How do you contribute to open source? In this video, I'll describe
               the easiest way to make a simple contribution to an open source
@@ -185,7 +194,8 @@
             <img src="./images/next5.png" alt="preview video 5" />
             <div class="preview-info">
               <h3 class="preview-title">
-                GitHub - Why Microsoft Paid $7.5B for the Future of Software! - A Case
+                GitHub - Why Microsoft Paid $7.5B for the Future of Software! -
+                A Case
               </h3>
               <p class="preview-account">Valuetainment</p>
               <p class="preview-views">444,634 views</p>
@@ -195,7 +205,8 @@
             <img src="./images/next6.png" alt="preview video 6" />
             <div class="preview-info">
               <h3 class="preview-title">
-                How to create a 3D Terrain with Google Maps and height maps in Photoshop
+                How to create a 3D Terrain with Google Maps and height maps in
+                Photoshop
               </h3>
               <p class="preview-account">Orange Box Ceo</p>
               <p class="preview-views">6,269,391 views</p>
@@ -208,9 +219,9 @@
     <footer>
       <div class="language-selector">
         <img
-        class="logo"
-        src="./images/new-youtube-logo.svg"
-        alt="Youtube logo"
+          class="logo"
+          src="./images/new-youtube-logo.svg"
+          alt="Youtube logo"
         />
         <button>
           <i class="fa fa-user"></i>
@@ -230,7 +241,7 @@
           <p>Help</p>
         </button>
       </div>
-      <hr>
+      <hr />
       <div class="about">
         <a>About</a>
         <a>Press</a>
