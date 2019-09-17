@@ -17,7 +17,6 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 25px;
   border-bottom: 1px solid #eeeeee;
   padding: 10px 20px;
 }
@@ -51,14 +50,16 @@ body {
 
 .search-button {
   border: 1px solid #bdbdbd;
-  background-color: lightgray;
+  background-color: #f1f1f1;
   padding-left: 15px;
   padding-right: 15px;
+  border-left: none;
 }
 
 #search-bar {
   height: 30px;
   width: 100%;
+  padding-left: 5px;
 }
 
 .navbar-icon {
@@ -82,6 +83,8 @@ body {
   background-color: #157ac5;
   color: white;
   width: 80px;
+  border: none;
+  border-radius: 3px;
 }
 
 .navbar-element {
@@ -93,23 +96,50 @@ body {
 
 .language {
   background-color: #157ac5;
+  color: white;
   display: flex;
   flex-direction: column;
   border: #157ac5 solid 2px;
   margin: 10px 2px;
 }
 
+.language .fa {
+  color: white;
+}
+
+.blue-right {
+  display: flex;
+}
+
+.blue {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .blue p {
   display: inline;
+  margin-left: 10px;
 }
 
 .blue,
 .white {
   width: 100%;
+  padding: 9px;
 }
 
 .white {
   background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.white a {
+  color: #157ac5;
 }
 
 .container {
@@ -275,6 +305,14 @@ body {
   flex-direction: row;
   justify-content: space-between;
   margin: 5px 10px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #606060;
+}
+
+.fa-toggle-on {
+  color: #157ac5;
+  font-size: 1.5em;
 }
 /* preview videos */
 .preview-video {
