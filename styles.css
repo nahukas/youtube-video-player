@@ -10,6 +10,11 @@ body {
   background-color: #f1f1f1;
 }
 
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
 /* navbar */
 .navbar {
   background-color: white;
@@ -182,16 +187,20 @@ body {
   flex-direction: row;
 }
 
-.icon-view {
-  border: solid #eeeeee;
-  border-radius: 5px;
-}
-
 .icon button {
   background-color: red;
   color: white;
   border: none;
-  padding: 0 2px;
+  padding: 0 5px;
+}
+
+.subscriber-count {
+  border: 1px solid #bdbdbd;
+  border-left: none;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 0 5px;
 }
 
 .account {
@@ -334,4 +343,45 @@ body {
   flex: 1;
   flex-direction: column;
   justify-content: space-between;
+}
+
+/* footer */
+.footer {
+  margin-top: 40px;
+  padding: 10px 30px;
+}
+
+.language-selector {
+  margin-bottom: 10px;
+}
+
+.language-button {
+  padding: 0 10px;
+  margin: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: #eeeeee;
+}
+
+.language-button p {
+  margin: 0 10px;
+}
+
+.about {
+  margin: 10px 0px;
+}
+
+.about a {
+  font-weight: 500;
+  font-size: 13px;
+  color: #333333;
+  margin-right: 10px;
+}
+
+.terms a {
+  font-weight: 500;
+  font-size: 11px;
+  color: #666666;
+  margin-right: 10px;
 }
