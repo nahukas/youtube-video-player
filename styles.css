@@ -89,10 +89,15 @@ body {
   margin-bottom: 10px;
 }
 
-.title {
+.title h2 {
   margin-bottom: 10px;
   font-family: 'Roboto';
+  color: #0d0d0d;
+  max-height: 4.8rem;
   font-weight: 400;
+  line-height: 24px;
+  size: 18px;
+  font-style: normal;
 }
 
 .description {
@@ -215,11 +220,11 @@ body {
   margin-left: 10px;
 }
 
-.up-next {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 5px 10px;
+/* header */
+
+.right-menu hr {
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .right-next {
@@ -229,4 +234,31 @@ body {
 
 .right-menu i {
   margin: 0 5px;
+}
+
+.up-next {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px 10px;
+}
+/* preview videos */
+.preview-video {
+  display: flex;
+  flex-direction: row;
+}
+
+.preview-video img {
+  display: flex;
+  flex: 1;
+  width: 50%;
+  height: auto;
+  margin-right: 10px;
+}
+
+.preview-info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
 }
