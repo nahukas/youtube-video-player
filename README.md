@@ -6,8 +6,10 @@ This Project is the only part of the “Basic HTML Page Structure” lesson of t
 # Authors
 
 Luis Novoa
-[GitHub Pages](github.com/luis-novoa
+github.com/luis-novoa
 
 Nahuel Castro
 github.com/nahukas
 
+# Live page
+https://nahukas.github.io/youtube-video-player/
