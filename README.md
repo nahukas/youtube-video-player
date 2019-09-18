@@ -3,10 +3,10 @@
 Document that matches the appearance of youtube video player page.
 This Project is the only part of the “Basic HTML Page Structure” lesson of the Microverse curriculum
 
-# ** Authors ** 
+# Authors
 
 Luis Novoa
-github.com/luis-novoa
+[GitHub Pages](github.com/luis-novoa
 
 Nahuel Castro
 github.com/nahukas
