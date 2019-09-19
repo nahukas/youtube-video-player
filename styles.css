@@ -84,6 +84,17 @@ body {
   align-items: center;
 }
 
+.logos-group {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.logo-icon {
+  display: flex;
+  flex: 1;
+}
+
 .sign-in-button {
   background-color: #157ac5;
   color: white;
